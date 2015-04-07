@@ -22,10 +22,23 @@
 
 ### Generate a Cocos2d-JS blank project
 
-    $ ccb project helloworld   # default width=320 height=480 orientation=landscape
-    $ ccb project helloworld -w 320 -h 568 --no-landscape # width=320 height=568 orientation=portrait         	  
+    $ ccb project hello   # default width=320 height=480 orientation=landscape
+    $ ccb project hello -w 320 -h 568 --no-landscape # width=320 height=568 orientation=portrait  
+
+![Screen Shot](capture1.png "Screen Shot")    
+
+### Run Default generated Cocos2d-JS project    
+
+    $ cocos run -p web 
+
+![Screen Shot](capture2.png "Screen Shot") 
+![Screen Shot](capture3.png "Screen Shot") 
+![Screen Shot](capture4.png "Screen Shot")     	  
 
 ### Generate a scene file
 
-    $ cbb scene page1
+    $ ccb scene page1
+
+
+![Screen Shot](capture5.png "Screen Shot")
     
